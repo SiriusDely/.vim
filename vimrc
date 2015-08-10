@@ -45,7 +45,18 @@ Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'desert-warm-256'
 
+"Plugin 'git://git.code.sf.net/p/vim-latex/vim-latex'
+
 syntax enable
 set background=light
 colorscheme solarized
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set list
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set clipboard=unnamed
+set ignorecase
+au BufRead,BufNewFile *.md set filetype=markdown
 
