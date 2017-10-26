@@ -30,6 +30,7 @@ Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'desert-warm-256'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'elixir-editors/vim-elixir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -60,4 +61,3 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<
 set clipboard=unnamed
 set ignorecase
 au BufRead,BufNewFile *.md set filetype=markdown
-
